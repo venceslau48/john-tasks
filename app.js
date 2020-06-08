@@ -28,7 +28,7 @@ app.get("*", function (req, res) {
 })
 
 //LISTEN APP ON PORT...
-var server = app.listen(process.env.PORT || 3001, function () {
-    var port = server.address().port
+const server = app.listen(process.env.PORT || 3001, function () {
+    const port = server.address().port
     console.log("Server running on port: " + port)
 })
