@@ -6,8 +6,6 @@ const path = require("path")
 const tasksRoutes = require("./routes/tasks")
 const tasksCompletasRoutes = require("./routes/tasksCompletas")
 
-const port = process.env.port || 3001
-
 const app = express()
 
 //STATIC FILES (ASSETS)
@@ -30,4 +28,7 @@ app.get("*", function (req, res) {
 })
 
 //LISTEN APP ON PORT...
-app.listen(port)
+var server = app.listen(process.env.PORT || 3001, function () {
+    var port = server.address().port
+    console.log("Server running on port: " + port)
+})
