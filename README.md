@@ -5,3 +5,5 @@
 ![Thumbnail](thumbnail.png)
 
 Made with Node.js, React/hooks and SCSS.
+
+Developed by John Vences - copyright @ 2020
