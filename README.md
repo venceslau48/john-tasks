@@ -4,6 +4,6 @@
 
 ![Thumbnail](thumbnail.png)
 
-Made with Node.js, React/hooks and SCSS.
+Made with Node.js, React/hooks and Styled Components.
 
 Developed by [John Vences](https://github.com/venceslau48) - copyright @ 2020
